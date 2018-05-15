@@ -20,22 +20,6 @@ class BinarySearch {
             }
         }
         return -1;
-        //自创的算法
-        /*while (true) {
-                time++;
-                int middle1 = (low + high) / 2;
-                if (index > ini[middle1]) {
-                    low = middle1+1;
-                } else if(ini[middle]>index){
-                    high = middle1-1;
-                }else if(ini[middle]==index){
-                    return middle1;
-                }
-                if(low==high){
-                    System.out.println("输入的元素索引为"+low+",检索了"+time+"次");
-                    return low;
-                }
-            }
-            */
+        
     }
 }
